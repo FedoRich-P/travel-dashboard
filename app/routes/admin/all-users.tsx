@@ -2,11 +2,11 @@ import {ColumnDirective, ColumnsDirective, GridComponent} from "@syncfusion/ej2-
 import {cn, formatDate} from "~/lib/utils";
 import Header from "../../../components/Header";
 
-export const loader = async () => {
-    // const {users, total} = await getAllUsers(10, 0);
-
-    // return {users, total};
-}
+// export const loader = async () => {
+//     // const {users, total} = await getAllUsers(10, 0);
+//
+//     // return {users, total};
+// }
 
 const AllUsers = ({loaderData}: any) => {
     // const {users} = [];
